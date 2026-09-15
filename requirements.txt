@@ -1,0 +1,7 @@
+# Python 3.14-compatible stack for the PINN reconstruction.
+torch>=2.10,<2.11
+numpy>=2.1
+pandas>=2.2
+scikit-learn>=1.6
+matplotlib>=3.9
+joblib>=1.4
