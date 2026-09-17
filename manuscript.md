@@ -218,7 +218,7 @@ Table 1 summarizes performance ($R^2$ scores) across all physical fields evaluat
 | Rank | Model Architecture | Velocity $u$ | Net Charge Density $\rho_e$ | $\text{Na}^+$ Density $n_{\text{Na}}$ | $\text{Cl}^-$ Density $n_{\text{Cl}}$ | Water Density $\rho_{\text{water}}$ | Metrics File Link |
 |:---:|---|:---:|:---:|:---:|:---:|:---:|---|
 | **1** | **PINO (Proposed)** | **0.9955** | **0.9484** | **0.9749** | **0.9945** | **0.9061** | [metrics_pino.json](file:///c:/Users/Anvesha/OneDrive/Desktop/TESTING/GOAT/Research_Project/graphene_pinn/artifacts/pino/pino/metrics_pino.json) |
-| **2** | **Baseline PINN** [22] | 0.9945 | 0.9921 | 0.9924 | 0.9937 | 0.7084 | [`metrics.json`](file:///c:/Users/Anvesha/OneDrive/Desktop/TESTING/GOAT/Research_Project/graphene_pinn/artifacts/metrics.json) |
+| **2** | **Arya et al.** [22] | 0.9945 | 0.9921 | 0.9924 | 0.9937 | 0.7084 | [`metrics.json`](file:///c:/Users/Anvesha/OneDrive/Desktop/TESTING/GOAT/Research_Project/graphene_pinn/artifacts/metrics.json) |
 | **3** | **RAR-PIQNN** | 0.9154 | 0.9378 | 0.9624 | 0.9850 | 0.6039 | [`metrics_rar-piqnn.json`](file:///c:/Users/Anvesha/OneDrive/Desktop/TESTING/GOAT/Research_Project/graphene_pinn/artifacts/rar_piqnn/rar-piqnn/metrics_rar-piqnn.json) |
 | **4** | **PI-DeepONet** | 0.8995 | 0.9438 | 0.9670 | 0.9865 | 0.5935 | [`metrics_pi-deeponet.json`](file:///c:/Users/Anvesha/OneDrive/Desktop/TESTING/GOAT/Research_Project/graphene_pinn/artifacts/pi_deeponet/pi-deeponet/metrics_pi-deeponet.json) |
 | **5** | **XPINN** | 0.8681 | 0.8977 | 0.9446 | 0.9798 | 0.5871 | [`metrics_xpinn.json`](file:///c:/Users/Anvesha/OneDrive/Desktop/TESTING/GOAT/Research_Project/graphene_pinn/artifacts/xpinn/xpinn/metrics_xpinn.json) |
