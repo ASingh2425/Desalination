@@ -240,18 +240,18 @@ Table \ref{tab:benchmark} summarizes performance ($R^2$ scores) across all physi
 
 \begin{table}[H]
 \centering
-\caption{Performance benchmark ($R^2$ scores) on held-out test simulations.}
+\caption{Performance benchmark ($R^2$ scores) and overall model ranking on held-out test simulations.}
 \label{tab:benchmark}
-\begin{tabular}{lccccc}
+\begin{tabular}{clccccc}
 \toprule
-\textbf{Model Architecture} & \textbf{Velocity $u$} & \textbf{Charge $\rho_e$} & \textbf{$\text{Na}^+$ $n_{\text{Na}}$} & \textbf{$\text{Cl}^-$ $n_{\text{Cl}}$} & \textbf{Water $\rho_{\text{water}}$} \\
+\textbf{Rank} & \textbf{Model Architecture} & \textbf{Velocity $u$} & \textbf{Charge $\rho_e$} & \textbf{$\text{Na}^+$ $n_{\text{Na}}$} & \textbf{$\text{Cl}^-$ $n_{\text{Cl}}$} & \textbf{Water $\rho_{\text{water}}$} \\
 \midrule
-\textbf{PINO (Proposed)} & \textbf{0.9955} & \textbf{0.9484} & \textbf{0.9749} & \textbf{0.9945} & \textbf{0.9061} \\
-\textbf{Baseline PINN} \cite{arya2026} & 0.9945 & 0.9921 & 0.9924 & 0.9937 & 0.7084 \\
-\textbf{PI-DeepONet} & 0.8995 & 0.9438 & 0.9670 & 0.9865 & 0.5935 \\
-\textbf{RAR-PIQNN} & 0.9154 & 0.9378 & 0.9624 & 0.9850 & 0.6039 \\
-\textbf{XPINN} & 0.8681 & 0.8977 & 0.9446 & 0.9798 & 0.5871 \\
-\textbf{FB-PINN} & 0.4807 & 0.4473 & 0.4667 & 0.5986 & 0.3678 \\
+\textbf{1} & \textbf{PINO (Proposed)} & \textbf{0.9955} & \textbf{0.9484} & \textbf{0.9749} & \textbf{0.9945} & \textbf{0.9061} \\
+\textbf{2} & \textbf{Baseline PINN} \cite{arya2026} & 0.9945 & 0.9921 & 0.9924 & 0.9937 & 0.7084 \\
+\textbf{3} & \textbf{RAR-PIQNN} & 0.9154 & 0.9378 & 0.9624 & 0.9850 & 0.6039 \\
+\textbf{4} & \textbf{PI-DeepONet} & 0.8995 & 0.9438 & 0.9670 & 0.9865 & 0.5935 \\
+\textbf{5} & \textbf{XPINN} & 0.8681 & 0.8977 & 0.9446 & 0.9798 & 0.5871 \\
+\textbf{6} & \textbf{FB-PINN} & 0.4807 & 0.4473 & 0.4667 & 0.5986 & 0.3678 \\
 \bottomrule
 \end{tabular}
 \end{table}
